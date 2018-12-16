@@ -2,7 +2,7 @@
     <head><title>node viewer</title></head>
     <link rel="stylesheet" href="css/background.css">
     <body>
-    <script>alert("scroll down to view node menu");</script>
+    <!-- <script>alert("scroll down to view node menu");</script>-->
     <div style="float:left; width: 1200px">
         <script type ="text/javascript" src="js/node_view.js"></script>
         <script type= "text/javascript" src="js/div_util.js"></script>
@@ -17,6 +17,7 @@
                 parent node ID: <input type="text" id="Pid"></br>
                 x :             <input type="text" id="xVal"></br>
                 y :             <input type="text" id="yVal"></br>
+                ** x Max: 1200 / y Max: 900</br>
                 <!-- shape:          <input type="text" id="Shape"></br></br> -->
                 <input type="button" value="Create Root" onClick="CreateRoot()">
                 <input type="button" value="Create node" onClick="AddNode(Pid.value, NodeName.value, xVal.value, yVal.value)">
