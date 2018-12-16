@@ -255,7 +255,7 @@ function TableVal(Node)
 function Highlight(NodeId)
 {
     var TmpNode = FindNodeBaseId(TreeRoot, NodeId);
-    var inputstring = TableVal(TreeRoot);
+    var inputstring = TableVal(TmpNode);
 
     DrawNodes(TreeRoot, NodeColor);
     DrawNodes(TmpNode, HighlightColor);
